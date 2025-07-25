@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <title>3D Maze Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="hud">
+        WASD or Arrow Keys to Move<br>
+        Mouse to Look<br>
+        R to Restart<br>
+        Spacebar to Run<br>
+        Time: <span id="timer">0.0</span>s
+    </div>
+    <canvas id="minimap"></canvas>
+    <div id="victory">You escaped the maze!
+        <br>Press R to Restart.</div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/three@0.125.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.125.0/examples/js/controls/PointerLockControls.js"></script>
+    <script src="Maze.js"></script>
+</body>
+</html>
+<!--Files have not met half of the objectives proposed in Maze.js.
+I made too many mistakes in hindsight, dallyed too much not knowing 
+that CoPilot had a monthly limit, spent too much time trying to 
+create good models from THREE instead of using or making 3D model 
+assets, and relied too much on AI for assistance.-->
